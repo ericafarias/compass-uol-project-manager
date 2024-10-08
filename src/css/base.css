@@ -12,6 +12,11 @@ a {
     color: black;
 }
 
+a:active {
+    padding: 20px;
+    box-shadow: 0 1px black;
+}
+
 :root {
     --primary-color: #331436;
     --font-size: 16px;
