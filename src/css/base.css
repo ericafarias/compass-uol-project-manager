@@ -29,3 +29,21 @@ a:active {
 html {
     font-size: var(--font-size);
 }
+
+.btn {
+    display: block;
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.btn--accent {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
