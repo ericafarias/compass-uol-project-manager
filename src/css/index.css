@@ -254,3 +254,39 @@
 .section4__form button {
     margin-top: 40px;
 }
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 220px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.footer__socialMedia {
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+}
+
+.footer__socialMedia > div {
+    background-color: #ffffff;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__text {
+    display: flex;
+    color: #ffffff;
+}
+
+.footer__text h5 {
+    margin-right: 60px;
+}
