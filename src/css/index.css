@@ -213,5 +213,44 @@
 .section4__text h3 {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: 24px;
+    color: var(--primary-color);
+    line-height: 48px;
+}
+
+.section4__text p {
+    font-size: 1rem;
+    color: var(--primary-color);
+    line-height: 24px;
+}
+
+.section4__form {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section4__form__email,
+.section4__form__name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.section4__form__email label,
+.section4__form__name {
+    font-size: 0.87rem;
+    color: var(--primary-color);
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section4__form__email article {
+    font-size: 0.75rem;
+    color: #8e8c8c;
+}
+
+.section4__form button {
+    margin-top: 40px;
 }
