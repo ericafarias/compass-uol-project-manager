@@ -1,0 +1,155 @@
+/*main*/
+.main {
+    display: flex;
+    padding: 60px 170px;
+
+    justify-content: center;
+    background-color: rgb(216, 214, 214);
+}
+
+.card__conteiner {
+    width: 240px;
+    height: 626px;
+    margin-right: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+/*card container*/
+
+.card__conteiner > h1 {
+    font-size: 1.5rem;
+    line-height: 24px;
+    color: var(--primary-color);
+}
+
+.card {
+    width: 200px;
+    height: 127px;
+    background-color: #f8f2ff;
+    margin: 10px 0px;
+    border: solid 1px var(--primary-color);
+    border-radius: 10px;
+}
+
+.card > h3 {
+    font-size: 0.75rem;
+    line-height: 24px;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 10px;
+}
+
+/*card header*/
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header__text {
+    width: 30px;
+    height: 15px;
+    border-radius: 40px;
+    background-color: #cb4f57;
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 1px;
+}
+
+.header__date {
+    font-size: 0.6rem;
+    line-height: 24px;
+    color: #6e6c6c;
+}
+
+/*card user*/
+.card__user {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.users {
+    display: flex;
+}
+.user {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-top: 4px;
+    text-align: center;
+    margin-right: 2px;
+    font-size: 0.6rem;
+    color: #ffffff;
+    background-color: #cb4f57;
+}
+
+.purple {
+    background-color: #801e8f;
+}
+
+.blue {
+    background-color: #2e4b83;
+}
+
+.pink {
+    background-color: #d92b93;
+}
+
+.green {
+    background-color: #1a712d;
+}
+
+.orange {
+    background-color: #af4a00;
+}
+
+.mid {
+    background-color: #eb9961;
+    border: solid 1px #cb4f57;
+}
+
+.higt {
+    background-color: #cb4f57;
+    border: solid 1px #7a1745;
+}
+
+.low {
+    background-color: #fcf4b6;
+    border: solid 1px #eb9961;
+}
+
+/*header*/
+
+.header__nav1 {
+    display: flex;
+    justify-content: space-between;
+    width: 532px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.header__nav1 a {
+}
+
+.nav__input {
+    position: relative;
+}
+
+.nav__input > img {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+.nav__input input {
+    background-color: transparent;
+    border: solid 1px #402941;
+    width: 200px;
+    height: 36px;
+}
