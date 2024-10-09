@@ -63,9 +63,9 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+
     padding: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header__menu {
