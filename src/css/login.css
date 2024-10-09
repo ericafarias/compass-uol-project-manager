@@ -12,8 +12,3 @@ main {
     display: flex;
     align-items: center;
 }
-
-footer,
-header {
-    flex-grow: 0;
-}
