@@ -97,6 +97,10 @@
     margin-left: 5px;
 }
 
+.section2__card:hover {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
 /*section 3*/
 
 .section3 {
@@ -149,6 +153,11 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.section3__icon > div:hover {
+    background: #5f2364;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
 .section3__icon img {

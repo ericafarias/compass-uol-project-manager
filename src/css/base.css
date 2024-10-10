@@ -14,11 +14,6 @@ a {
     text-decoration: none;
 }
 
-a:active {
-    padding: 20px;
-    box-shadow: 0 1px black;
-}
-
 :root {
     --primary-color: #331436;
     --font-size: 16px;
@@ -45,6 +40,16 @@ html {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+.btn:active {
+    padding: 10px;
+    background-color: #5f2364;
+}
+
+.btn--accent:active {
+    padding: 10px;
+    background-color: #c7696f;
 }
 
 .btn--accent {
