@@ -74,9 +74,14 @@
     margin: 10px;
 }
 
+.card__user img:hover {
+    box-shadow: 2px 2px 5px 0px black;
+}
+
 .users {
     display: flex;
 }
+
 .user {
     width: 20px;
     height: 20px;
@@ -89,6 +94,9 @@
     background-color: #cb4f57;
 }
 
+.user:hover {
+    box-shadow: 2px 2px 5px 0px black;
+}
 .purple {
     background-color: #801e8f;
 }
