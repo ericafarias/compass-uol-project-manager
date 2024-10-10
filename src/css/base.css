@@ -43,6 +43,10 @@ html {
     font-size: 1rem;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .btn--accent {
     background-color: var(--secondary-color);
     color: var(--accent-color);
@@ -120,4 +124,39 @@ input {
 
 .footer__text h5 {
     margin-right: 60px;
+}
+
+/*mensage*/
+
+.mensage {
+    width: 520px;
+    height: 40px;
+    background-color: rgb(240, 239, 239);
+    color: black;
+    border-radius: 10px;
+    border: solid 1px #b9b4b9;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.mensage img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.hidden {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    margin-top: 0;
 }
