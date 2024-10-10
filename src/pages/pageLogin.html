@@ -29,7 +29,11 @@
                     <h3>Login Information</h3>
                     <p>Enter your credentials</p>
                 </div>
-                <form class="section4__form">
+                <form
+                    class="section4__form"
+                    onsubmit="submitLogin(event)"
+                    novalidate
+                >
                     <div class="section4__form__email">
                         <label for="email">Email</label>
                         <input
@@ -48,6 +52,10 @@
                             placeholder="Enter your password"
                             name="password"
                         />
+                    </div>
+                    <div id="mensage" class="mensage hidden">
+                        <img id="imgMensage" />
+                        <span id="spanMensage"></span>
                     </div>
                     <button class="btn" type="submit">Login</button>
                 </form>
@@ -91,5 +99,6 @@
                 <h5>Terms of Service</h5>
             </div>
         </footer>
+        <script src="../js/index.js"></script>
     </body>
 </html>

@@ -121,7 +121,11 @@
                     <h3>Subscribe to Updates</h3>
                     <p>Stay informed with our latest updates</p>
                 </div>
-                <form class="section4__form">
+                <form
+                    class="section4__form"
+                    onsubmit="submitSubscribe(event)"
+                    novalidate
+                >
                     <div class="section4__form__email">
                         <label for="email">Email</label>
                         <input
@@ -141,6 +145,10 @@
                             placeholder="Enter your name"
                             name="name"
                         />
+                        <div id="mensage" class="mensage hidden">
+                            <img id="imgMensage" />
+                            <span id="spanMensage"></span>
+                        </div>
                     </div>
                     <button class="btn" type="submit">Subscribe</button>
                 </form>
