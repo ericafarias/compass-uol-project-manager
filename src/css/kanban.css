@@ -137,10 +137,15 @@
 .header__nav1 {
     display: flex;
     justify-content: space-between;
-    width: 532px;
+
+    width: 33.25rem;
     align-items: center;
     color: #ffffff;
     font-size: 1rem;
+}
+
+.header__nav1 > a {
+    margin: 1rem;
 }
 
 .nav__input {
@@ -149,12 +154,12 @@
 
 .nav__input > img {
     position: absolute;
-    right: 5px;
-    top: 7px;
+    right: 0.31rem;
+    top: 0.43rem;
 }
 .nav__input input {
     background-color: transparent;
-    border: solid 1px #402941;
-    width: 200px;
-    height: 36px;
+    border: solid 0.1rem #402941;
+    width: 12.5rem;
+    height: 2.25rem;
 }
