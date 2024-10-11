@@ -11,9 +11,9 @@ function clearSubscribe() {
 function showMensage(text, type) {
     document.getElementById("spanMensage").innerText = text;
     if (type == "error") {
-        document.getElementById("imgMensage").src = "../images/icon-X.svg";
+        document.getElementById("imgMensage").style.backgroundColor = "red";
     } else {
-        document.getElementById("imgMensage").src = "../images/icon-check.svg";
+        document.getElementById("imgMensage").style.backgroundColor = "green";
     }
 
     const mensage = document.getElementById("mensage");
