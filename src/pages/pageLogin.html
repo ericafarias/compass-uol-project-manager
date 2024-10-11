@@ -25,16 +25,16 @@
         <main>
             <!-- section -->
             <section class="section4">
-                <div class="section4__text">
-                    <h3>Login Information</h3>
-                    <p>Enter your credentials</p>
+                <div id="section4__text" class="section4__text">
+                    <h3 id="login__text1">Login Information</h3>
+                    <p id="login__text2">Enter your credentials</p>
                 </div>
                 <form
                     class="section4__form"
                     onsubmit="submitLogin(event)"
                     novalidate
                 >
-                    <div class="section4__form__email">
+                    <div id="login__input__email" class="section4__form__email">
                         <label for="email">Email</label>
                         <input
                             type="email"
@@ -44,7 +44,10 @@
                         />
                     </div>
 
-                    <div class="section4__form__name">
+                    <div
+                        id="login__input__password"
+                        class="section4__form__name"
+                    >
                         <label for="password">Password</label>
                         <input
                             type="password"
@@ -54,16 +57,21 @@
                         />
                     </div>
                     <div id="mensage" class="mensage hidden">
-                        <img id="imgMensage" />
+                        <div id="imgMensage"></div>
                         <span id="spanMensage"></span>
                     </div>
-                    <button class="btn" type="submit">Login</button>
+                    <div class="center__mobile">
+                        <button id="login__form__button" class="btn" type="submit">Login</button>
+                    </div>
+                    
+                        
+                    </button>
                 </form>
             </section>
         </main>
 
         <!--footer-->
-        <footer class="footer">
+        <footer id="login__footer" class="footer">
             <ul class="footer__socialMedia">
                 <div>
                     <li>
