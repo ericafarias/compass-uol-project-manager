@@ -22,7 +22,6 @@
 
 .card__conteiner > h1 {
     font-size: 1.5rem;
-    line-height: 24px;
     color: var(--primary-color);
 }
 
@@ -137,8 +136,6 @@
 .header__nav1 {
     display: flex;
     justify-content: space-between;
-
-    width: 33.25rem;
     align-items: center;
     color: #ffffff;
     font-size: 1rem;
@@ -151,7 +148,6 @@
 .nav__input {
     position: relative;
 }
-
 .nav__input > img {
     position: absolute;
     right: 0.31rem;
@@ -162,4 +158,37 @@
     border: solid 0.1rem #402941;
     width: 12.5rem;
     height: 2.25rem;
+}
+
+.header__mobile > a {
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header__nav1 > a {
+        font-size: 0.8rem;
+        width: 25%;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .header__nav1 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main {
+        padding: 0px;
+        width: auto;
+        justify-content: start;
+        height: auto;
+        overflow-x: scroll;
+    }
+    .card__conteiner {
+        margin: 10px;
+    }
 }

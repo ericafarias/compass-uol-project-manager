@@ -67,7 +67,7 @@ input {
 /*header*/
 .header {
     width: 100%;
-    height: 5rem;
+    min-height: 5rem;
     background-color: #331436;
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ input {
 .header__menu h1 {
     color: #ffffff;
     font-weight: 400;
-    line-height: 36;
+
     font-size: 1.75rem;
 }
 
@@ -133,6 +133,7 @@ input {
 
 .mensage {
     width: 32.5rem;
+    max-width: 100%;
     height: 2.5rem;
     background-color: rgb(240, 239, 239);
     color: black;
@@ -150,8 +151,10 @@ input {
     transition: all 0.5s ease;
 }
 
-.mensage img {
+.mensage div {
     width: 20px;
+    height: 20px;
+    border-radius: 50%;
     margin-right: 10px;
 }
 
@@ -164,19 +167,32 @@ input {
     margin-top: 0;
 }
 
+html,
+body {
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.scroll {
+    display: block;
+    width: 100vw;
+    overflow-x: scroll;
+}
+
 /*mobile*/
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 768px) {
     .header {
-        height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-    .header__menu {
-        align-items: flex-start;
+    .header .btn {
+        margin-top: 10px;
+        width: 15rem;
     }
-    .header__menu h1 {
-        display: none;
-    }
+
     .header__nav a {
         align-items: start;
         width: 10rem;
@@ -191,5 +207,11 @@ input {
     .footer__text h5 {
         margin-left: 3rem;
         margin-bottom: 1rem;
+    }
+    .center__mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
