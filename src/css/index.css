@@ -204,7 +204,7 @@
 
 .section3__icon > div:hover {
     background: #5f2364;
-    opacity: 0.5;
+    opacity: 0.9;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
